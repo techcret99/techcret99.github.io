@@ -9,6 +9,7 @@
     <link href="css/style.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Responsive -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -25,7 +26,7 @@
         <div class="preloader"></div>
 
         <!-- Main Header / Style Two-->
-        <header class="main-header">
+        <header class="main-header alternate">
 
             <!-- Main Box -->
             <div class="main-box">
@@ -40,47 +41,70 @@
                         <div class="nav-outer clearfix">
                             <!-- Main Menu -->
                             <nav class="main-menu">
-
-                                <div class="navbar-header">
-                                    <!-- Toggle Button -->
-                                    <button type="button" class="navbar-toggle" data-toggle="collapse"
-                                        data-target=".navbar-collapse">
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                    </button>
-                                </div>
-
-                                <div class="navbar-collapse collapse clearfix">
+                                <div class="navbar-collapse collapse scroll-nav clearfix">
                                     <ul class="navigation clearfix">
-                                        <li class="dropdown"><a href="#">Home</a>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li class="dropdown"><a href="full-tech.html">Solutions</a>
                                             <ul>
-                                                <li><a href="index.html">Home Version One</a></li>
-                                                <li><a href="index-2.html">Home Version Two</a></li>
-                                                <li><a href="index-3.html">Home Version Three</a></li>
-                                                <li><a href="index-4.html">Home Version Four</a></li>
+                                                <li><a href="about.html">Backend Development</a></li>
+                                                <li><a href="about.html">Frontend Development</a></li>
+                                                <li><a href="about.html">Dev-Ops Development</a></li>
+                                                <li><a href="about.html">Mobility</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="full-tech.html">Technologies</a>
+                                            <ul>
+                                                <li class="dropdown"><a href="javascript:void(0)">Backend
+                                                        Technologies</a>
+                                                    <ul>
+                                                        <li><a href="services.html">Grails</a></li>
+                                                        <li><a href="services.html">Spring Boot</a></li>
+                                                        <li><a href="services.html">Spring Cloud</a></li>
+                                                        <li><a href="services.html">Micronaut</a></li>
+                                                        <li><a href="services.html">JVM Languages
+                                                                (Java/Groovy/Kotlin)</a></li>
+                                                        <li><a href="services.html">Hibernate/JPA/Gorm/Spring
+                                                                Data/Micronaut Data</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown"><a href="javascript:void(0)">Forntend
+                                                        Technologies</a>
+                                                    <ul>
+                                                        <li><a href="services.html">ReactJS</a></li>
+                                                        <li><a href="services.html">TypeScript</a></li>
+                                                        <li><a href="services.html">JavaScript/ES6</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown"><a href="javascript:void(0)">Dev-Ops
+                                                        Technologies</a>
+                                                    <ul>
+                                                        <li><a href="services.html">AWS(Amazon Web Services)</a></li>
+                                                        <li><a href="services.html">Google Cloud</a></li>
+                                                        <li><a href="services.html">Microsoft Azure</a></li>
+                                                        <li><a href="services.html">Docker</a></li>
+                                                        <li><a href="services.html">Kubernetes</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown"><a href="javascript:void(0)">Mobility</a>
+                                                    <ul>
+                                                        <li><a href="services.html">ReactNative</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown"><a href="javascript:void(0)">Supporting
+                                                        Technologies</a>
+                                                    <ul>
+                                                        <li><a href="services.html">RabbitMQ/Apache Kafka</a></li>
+                                                        <li><a href="services.html">Redis</a></li>
+                                                        <li><a href="services.html">MySQL</a></li>
+                                                        <li><a href="services.html">MongoDB</a></li>
+                                                        <li><a href="services.html">HazelCast</a></li>
+                                                    </ul>
+                                                </li>
                                             </ul>
                                         </li>
                                         <li><a href="about.html">About Us</a></li>
-                                        <li><a href="price.html">Pricing</a></li>
-                                        <li class="current dropdown"><a href="#">Services</a>
-                                            <ul>
-                                                <li><a href="services.html">All Services</a></li>
-                                                <li><a href="service-detail.html">Spring Software</a></li>
-                                                <li><a href="service-detail.html">Spring App</a></li>
-                                                <li><a href="service-detail.html">Spring Product</a></li>
-                                                <li><a href="service-detail.html">Spring Showcase</a></li>
-                                                <li><a href="service-detail.html">Spring Analytics</a></li>
-                                                <li><a href="service-detail.html">Spring Ecommerce</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown"><a href="#">Blog</a>
-                                            <ul>
-                                                <li><a href="blog.html">Blog Page</a></li>
-                                                <li><a href="blog-single.html">Blog Post Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact.html">Contact Us</a></li>
+                                        <li><a href="#clients">Contact Us</a></li>
+                                        <li><a href="#testimonials">Blog</a></li>
                                     </ul>
                                 </div>
 
@@ -88,9 +112,9 @@
                             <!-- Main Menu End-->
 
                             <!--Other Links-->
-                            <div class="other-links">
+                            <!-- <div class="other-links">
                                 <a href="contact.html" class="theme-btn btn-style-one">Get Quote</a>
-                            </div>
+                            </div> -->
 
                         </div>
                         <!--Nav Outer End-->
@@ -197,195 +221,6 @@
             </div>
         </section>
         <!--End Price Section-->
-
-        <!--Overview Section-->
-        <section class="review-section" id="overview">
-            <div class="auto-container">
-
-                <!--Heading-->
-                <div class="sec-title-two centered">
-                    <h2>Take a quick overview</h2>
-                    <div class="desc-text">The standard chunk of Lorem Ipsum useds since the 1500s is reproduced below
-                        form those</div>
-                </div>
-
-                <div class="review-tabs tabs-box">
-                    <!--Buttons-->
-                    <div class="buttons-box">
-                        <ul class="tab-buttons clearfix">
-                            <li class="tab-btn active-btn" data-tab="#tab-one">Modern Design</li>
-                            <li class="tab-btn" data-tab="#tab-two">Friendly use</li>
-                            <li class="tab-btn" data-tab="#tab-three">Face ID</li>
-                            <li class="tab-btn" data-tab="#tab-four">Wireless Charging</li>
-                            <li class="tab-btn" data-tab="#tab-five">New Sensor</li>
-                        </ul>
-                    </div>
-
-                    <!--Tabs Content-->
-                    <div class="tabs-content">
-                        <!--Tab / Active tab-->
-                        <div class="tab active-tab" id="tab-one">
-                            <div class="row clearfix">
-                                <!--Image Column-->
-                                <div class="image-column col-md-4 col-sm-4 col-xs-12">
-                                    <figure class="image"><img src="images/resource/featured-image-11.png" alt="">
-                                    </figure>
-                                </div>
-                                <!--Text Column-->
-                                <div class="text-column col-md-8 col-sm-8 col-xs-12">
-                                    <div class="inner">
-                                        <div class="icon"><img src="images/icons/icon-22.png" alt=""></div>
-                                        <h3>Modern Design</h3>
-                                        <div class="text">There are many variations of passages of Lorem Ipsume
-                                            available, but the majority. Many museu are transforming thanks to
-                                            echnology. They are adding interactivity and magic to the visitorer
-                                            experience. Estimote Beacons have helped the Guggenheim in New York to be at
-                                            the forefront of this process. The club uses Estimote Beacons to transform
-                                            the in-stadium experience for its guests.</div>
-                                        <div class="more-link-one"><a href="#">See more <span
-                                                    class="icon ti-arrow-circle-right"></span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--Tab-->
-                        <div class="tab" id="tab-two">
-                            <div class="row clearfix">
-                                <!--Image Column-->
-                                <div class="image-column col-md-4 col-sm-4 col-xs-12">
-                                    <figure class="image"><img src="images/resource/featured-image-11.png" alt="">
-                                    </figure>
-                                </div>
-                                <!--Text Column-->
-                                <div class="text-column col-md-8 col-sm-8 col-xs-12">
-                                    <div class="inner">
-                                        <div class="icon"><img src="images/icons/icon-22.png" alt=""></div>
-                                        <h3>Friendly use</h3>
-                                        <div class="text">There are many variations of passages of Lorem Ipsume
-                                            available, but the majority. Many museu are transforming thanks to
-                                            echnology. They are adding interactivity and magic to the visitorer
-                                            experience. Estimote Beacons have helped the Guggenheim in New York to be at
-                                            the forefront of this process. The club uses Estimote Beacons to transform
-                                            the in-stadium experience for its guests.</div>
-                                        <div class="more-link-one"><a href="#">See more <span
-                                                    class="icon ti-arrow-circle-right"></span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--Tab -->
-                        <div class="tab" id="tab-three">
-                            <div class="row clearfix">
-                                <!--Image Column-->
-                                <div class="image-column col-md-4 col-sm-4 col-xs-12">
-                                    <figure class="image"><img src="images/resource/featured-image-11.png" alt="">
-                                    </figure>
-                                </div>
-                                <!--Text Column-->
-                                <div class="text-column col-md-8 col-sm-8 col-xs-12">
-                                    <div class="inner">
-                                        <div class="icon"><img src="images/icons/icon-22.png" alt=""></div>
-                                        <h3>Face ID</h3>
-                                        <div class="text">There are many variations of passages of Lorem Ipsume
-                                            available, but the majority. Many museu are transforming thanks to
-                                            echnology. They are adding interactivity and magic to the visitorer
-                                            experience. Estimote Beacons have helped the Guggenheim in New York to be at
-                                            the forefront of this process. The club uses Estimote Beacons to transform
-                                            the in-stadium experience for its guests.</div>
-                                        <div class="more-link-one"><a href="#">See more <span
-                                                    class="icon ti-arrow-circle-right"></span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--Tab -->
-                        <div class="tab" id="tab-four">
-                            <div class="row clearfix">
-                                <!--Image Column-->
-                                <div class="image-column col-md-4 col-sm-4 col-xs-12">
-                                    <figure class="image"><img src="images/resource/featured-image-11.png" alt="">
-                                    </figure>
-                                </div>
-                                <!--Text Column-->
-                                <div class="text-column col-md-8 col-sm-8 col-xs-12">
-                                    <div class="inner">
-                                        <div class="icon"><img src="images/icons/icon-22.png" alt=""></div>
-                                        <h3>Wireless Charging</h3>
-                                        <div class="text">There are many variations of passages of Lorem Ipsume
-                                            available, but the majority. Many museu are transforming thanks to
-                                            echnology. They are adding interactivity and magic to the visitorer
-                                            experience. Estimote Beacons have helped the Guggenheim in New York to be at
-                                            the forefront of this process. The club uses Estimote Beacons to transform
-                                            the in-stadium experience for its guests.</div>
-                                        <div class="more-link-one"><a href="#">See more <span
-                                                    class="icon ti-arrow-circle-right"></span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--Tab -->
-                        <div class="tab" id="tab-five">
-                            <div class="row clearfix">
-                                <!--Image Column-->
-                                <div class="image-column col-md-4 col-sm-4 col-xs-12">
-                                    <figure class="image"><img src="images/resource/featured-image-11.png" alt="">
-                                    </figure>
-                                </div>
-                                <!--Text Column-->
-                                <div class="text-column col-md-8 col-sm-8 col-xs-12">
-                                    <div class="inner">
-                                        <div class="icon"><img src="images/icons/icon-22.png" alt=""></div>
-                                        <h3>New Sensor</h3>
-                                        <div class="text">There are many variations of passages of Lorem Ipsume
-                                            available, but the majority. Many museu are transforming thanks to
-                                            echnology. They are adding interactivity and magic to the visitorer
-                                            experience. Estimote Beacons have helped the Guggenheim in New York to be at
-                                            the forefront of this process. The club uses Estimote Beacons to transform
-                                            the in-stadium experience for its guests.</div>
-                                        <div class="more-link-one"><a href="#">See more <span
-                                                    class="icon ti-arrow-circle-right"></span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!--Get App Section-->
-        <section class="get-app-section alternate">
-            <div class="auto-container">
-                <!--Heading-->
-                <div class="sec-title-two centered">
-                    <h2>Get The App</h2>
-                    <div class="desc-text">Grow your traffic and draw customers to your business We couldn't put it
-                        better than our users.</div>
-                </div>
-
-                <div class="links-outer">
-                    <ul class="get-app-links clearfix">
-                        <li><a href="#" class="link-box">
-                                <div class="icon-box"><span class="icon"><img src="images/icons/apple-icon.png"
-                                            alt=""></span></div><span class="title">App Store</span><span
-                                    class="text">Available on</span>
-                            </a></li>
-                        <li><a href="#" class="link-box">
-                                <div class="icon-box"><span class="icon"><img src="images/icons/android-icon.png"
-                                            alt=""></span></div><span class="title">Google Play</span><span
-                                    class="text">Available on</span>
-                            </a></li>
-                    </ul>
-                </div>
-
-            </div>
-        </section>
 
         <!--Footer Style One-->
         <footer class="footer-style-one">
