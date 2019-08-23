@@ -8,6 +8,7 @@
 <link href="css/style.css" rel="stylesheet">
 <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 <link rel="icon" href="images/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -39,21 +40,17 @@
                     <div class="nav-outer clearfix">
                         <!-- Main Menu -->
                         <nav class="main-menu">
-                        
-                            <div class="navbar-header">
-                                <!-- Toggle Button -->    	
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                            </div>
-                            
                             <div class="navbar-collapse collapse scroll-nav clearfix">
                                 <ul class="navigation clearfix">
                                     <li><a href="index.html">Home</a></li>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="soutions.html">Solutions</a></li>
+                                    <li class="dropdown"><a href="javascript:void(0)">Solutions</a>
+                                    <ul>
+                                        <li><a href="about.html">Backend Development</a></li>
+                                        <li><a href="about.html">Frontend Development</a></li>
+                                        <li><a href="about.html">Dev-Ops Development</a></li>
+                                        <li><a href="about.html">Mobility</a></li>
+                                    </ul>
+                                    </li>
                                     <li class="dropdown"><a href="#">Technologies</a>
                                     	<ul>
                                         <li class="dropdown"><a href="javascript:void(0)">Backend Technologies</a>
@@ -98,6 +95,7 @@
                                         </li>
                                         </ul>
                                     </li>
+                                    <li><a href="about.html">About Us</a></li>
                                     <li><a href="#clients">Contact Us</a></li>
                                     <li><a href="#testimonials">Blog</a></li>                                      
                                  </ul>
