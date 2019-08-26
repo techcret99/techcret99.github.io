@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Spring Cloud</title>
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body>
+
+    <div class="page-wrapper">
+
+        <!-- Preloader -->
+        <div class="preloader"></div>
+
+        <!-- Main Header / Style Two-->
+        <header class="main-header">
+
+            <!-- Main Box -->
+            <div class="main-box">
+                <div class="auto-container">
+                    <div class="outer-container clearfix">
+                        <!--Logo Box-->
+                        <div class="logo-box">
+                            <div class="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+                        </div>
+
+                        <!--Nav Outer-->
+                        <div class="nav-outer clearfix">
+                            <!-- Main Menu -->
+                            <nav class="main-menu">
+                                <div class="navbar-collapse collapse scroll-nav clearfix">
+                                    <ul class="navigation clearfix">
+                                        <li><a href="index.html">Home</a></li>
+                                        <li class="dropdown"><a href="full-tech.html">Solutions</a>
+                                            <ul>
+                                                <li><a href="about.html">Backend Development</a></li>
+                                                <li><a href="about.html">Frontend Development</a></li>
+                                                <li><a href="about.html">Dev-Ops Development</a></li>
+                                                <li><a href="about.html">Mobility</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="full-tech.html">Technologies</a>
+                                            <ul>
+                                                <li class="dropdown"><a href="javascript:void(0)">Backend
+                                                        Technologies</a>
+                                                    <ul>
+                                                        <li><a href="grails.html">Grails</a></li>
+                                                        <li><a href="springBoot.html">Spring Boot</a></li>
+                                                        <li><a href="springCloud.html">Spring Cloud</a></li>
+                                                        <li><a href="micronaut.html">Micronaut</a></li>
+                                                        <li><a href="jvm.html">JVM Languages (Java/Groovy/Kotlin)</a>
+                                                        </li>
+                                                        <li><a href="data.html">Hibernate/JPA/Gorm/Spring Data/Micronaut
+                                                                Data</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown"><a href="javascript:void(0)">Forntend
+                                                        Technologies</a>
+                                                    <ul>
+                                                        <li><a href="reactjs.html">ReactJS</a></li>
+                                                        <li><a href="typescript.html">TypeScript</a></li>
+                                                        <li><a href="es6.html">JavaScript/ES6</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown"><a href="javascript:void(0)">Dev-Ops
+                                                        Technologies</a>
+                                                    <ul>
+                                                        <li><a href="aws.html">AWS(Amazon Web Services)</a></li>
+                                                        <li><a href="googleCloud.html">Google Cloud</a></li>
+                                                        <li><a href="azure.html">Microsoft Azure</a></li>
+                                                        <li><a href="docker.html">Docker</a></li>
+                                                        <li><a href="k8s.html">Kubernetes</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown"><a href="javascript:void(0)">Mobility</a>
+                                                    <ul>
+                                                        <li><a href="reactNative.html">ReactNative</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown"><a href="javascript:void(0)">Supporting
+                                                        Technologies</a>
+                                                    <ul>
+                                                        <li><a href="amqp.html">RabbitMQ/Apache Kafka</a></li>
+                                                        <li><a href="redis.html">Redis</a></li>
+                                                        <li><a href="mysql.html">MySQL</a></li>
+                                                        <li><a href="mongoDb.html">MongoDB</a></li>
+                                                        <li><a href="hazelcast.html">HazelCast</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="#clients">Contact Us</a></li>
+                                        <li><a href="#testimonials">Blog</a></li>
+                                    </ul>
+                                </div>
+
+                            </nav>
+                            <!-- Main Menu End-->
+
+                            <!--Other Links-->
+                            <!-- <div class="other-links">
+                        	<a href="contact.html" class="theme-btn btn-style-one">Get Quote</a>
+                        </div> -->
+
+                        </div>
+                        <!--Nav Outer End-->
+
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <!--End Main Header -->
+
+        <!--Page Title-->
+        <section class="page-title" style="padding: 210px 0px 0px;">
+            <span class="left-curve"></span>
+            <span class="right-curve"></span>
+            <div class="auto-container">
+                <h1>Spring Cloud</h1>
+                <br />
+                <h3>Spring Cloud provides tools for developers to quickly build some of the common patterns in
+                    distributed systems (e.g. configuration management, service discovery, circuit breakers, intelligent
+                    routing, micro-proxy, control bus, one-time tokens, global locks, leadership election, distributed
+                    sessions, cluster state). They will work well in any distributed environment, including the
+                    developer’s own laptop,
+                    bare metal data centres, and managed platforms such as Cloud Foundry.</h3>
+
+            </div>
+            <div class="image">
+                <img src="images/resource/springCloud.png" alt="Spring Cloud" />
+            </div>
+        </section>
+        <!--End Page Title-->
+
+        <!--Services Single Section-->
+        <section class="services-single-section">
+            <div class="auto-container">
+                <div class="row clearfix">
+
+                    <!--Links Column-->
+                    <div class="links-column col-md-4 col-sm-12 col-xs-12">
+                        <div class="inner-column">
+                            <ul class="service-list">
+                                <li><a href="javascript:void(0)">Spring Cloud Stream</a></li>
+                                <li><a href="javascript:void(0)">Spring Cloud for Amazon Web Services</a></li>
+                                <li><a href="javascript:void(0)">Spring Cloud Security</a></li>
+                                <li><a href="javascript:void(0)">Spring Cloud Config</a></li>
+                                <li><a href="javascript:void(0)">Spring Cloud Connectors</a></li>
+                                <li><a href="javascript:void(0)">Spring Cloud Function</a></li>
+                                <li><a href="javascript:void(0)">Spring Cloud Gateway</a></li>
+                                <li><a href="javascript:void(0)">Spring Cloud Sleuth</a></li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!--Content Column-->
+                    <div class="content-column col-md-8 col-sm-12 col-xs-12">
+                        <div class="inner-column">
+                            <h2>Features</h2>
+                            <div class="text">
+                                <p>Spring Cloud focuses on providing good out of box experience for typical use cases
+                                    and extensibility mechanism to cover others like
+
+                                    Distributed/versioned configuration,
+
+                                    Service registration and discovery,
+
+                                    Routing,
+
+                                    Service-to-service calls,
+
+                                    Load balancing,
+
+                                    Circuit Breakers,
+
+                                    Global locks,
+
+                                    Leadership election and cluster state,
+
+                                    Distributed messaging.
+
+                                    Spring Cloud takes a very declarative approach, and often you get a lot of features
+                                    with just a classpath change and/or an annotation.</p>
+                                <div class="row clearfix">
+                                    <div class="column col-md-6 col-sm-6 col-xs-12">
+                                        <h3>Spring Cloud Stream</h3>
+                                        <p>It is a well suited Spring module for web application development. You can
+                                            easily create a self-contained HTTP server using embedded Tomcat, Jetty or
+                                            Undertow. You can use the spring-boot- starter-web module to start and
+                                            run application quickly.</p>
+                                    </div>
+                                    <div class="column col-md-6 col-sm-6 col-xs-12">
+                                        <h3>Spring Cloud for Amazon Web Services</h3>
+                                        <p>Spring Cloud for Amazon Web Services, part of the Spring Cloud umbrella
+                                            project, eases the integration with hosted Amazon Web Services. It offers a
+                                            convenient way to interact with AWS provided services using well-known
+                                            Spring idioms and APIs, such as the messaging or caching API.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row clearfix">
+                                    <div class="column col-md-6 col-sm-6 col-xs-12">
+                                        <h3>Spring Cloud Security</h3>
+                                        <p>Spring Cloud Security offers a set of primitives for building secure
+                                            applications and services with minimum fuss. A declarative model which can
+                                            be heavily configured externally (or centrally) lends itself to the
+                                            implementation of large systems of co-operating, remote components, usually
+                                            with a central indentity management service. Building on Spring Boot and
+                                            Spring Security OAuth2 we can quickly create systems that implement common
+                                            patterns like single sign on, token relay and token exchange.</p>
+
+                                    </div>
+                                    <div class="column col-md-6 col-sm-6 col-xs-12">
+                                        <h3>Spring Cloud Config</h3>
+                                        <p>Spring Cloud Config provides server and client-side support for externalized
+                                            configuration in a distributed system. As an application moves through the
+                                            deployment pipeline from
+                                            dev to test and into production you can manage the configuration between
+                                            those environments and be certain that applications have everything they
+                                            need to run when they migrate. </p>
+                                    </div>
+                                </div>
+
+                                <div class="row clearfix">
+                                    <div class="column col-md-6 col-sm-6 col-xs-12">
+                                        <h3>Spring Cloud Connectors</h3>
+                                        <p>Spring Cloud Connectors simplifies the process of connecting to services and
+                                            gaining operating environment awareness in cloud platforms such as Cloud
+                                            Foundry and Heroku, especially for Spring applications.
+                                        </p>
+
+                                    </div>
+                                    <div class="column col-md-6 col-sm-6 col-xs-12">
+                                        <h3>Spring Cloud Function</h3>
+                                        <p>Spring Cloud Function is a project with the following high-level goals:
+
+                                            1. Promote the implementation of business logic via functions.
+
+                                            2. Decouple the development lifecycle of business logic from any specific
+                                            runtime target so that the same code can run as a web endpoint, a stream
+                                            processor, or a task.
+
+                                            3. Support a uniform programming model across serverless providers, as well
+                                            as
+                                            the ability to run standalone (locally or in a PaaS).
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row clearfix">
+                                    <div class="column col-md-6 col-sm-6 col-xs-12">
+                                        <h3>Spring Cloud Gateway</h3>
+                                        <p>Spring Cloud Gateway provides a library for building an API Gateway
+                                            on top of Spring
+                                            MVC. Spring Cloud Gateway aims to provide a simple, yet effective way to
+                                            route to APIs and provide cross cutting concerns to them such as: security,
+                                            monitoring/metrics, and resiliency.</p>
+                                    </div>
+                                    <div class="column col-md-6 col-sm-6 col-xs-12">
+                                        <h3>Spring Cloud Sleuth</h3>
+                                        <p>Spring Cloud Sleuth implements a distributed tracing solution for Spring
+                                            Cloud, borrowing heavily from Dapper, Zipkin and HTrace. For most users
+                                            Sleuth should be invisible, and all your interactions with external systems
+                                            should be instrumented automatically. You can capture data simply in logs,
+                                            or by sending it to a remote collector service.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--End Services Single Section-->
+
+        <!--Footer Style One-->
+        <footer class="footer-style-one">
+            <!--Footer Upper-->
+            <div class="footer-upper">
+                <div class="auto-container">
+                    <div class="row clearfix">
+                        <!--Big Column-->
+                        <div class="big-column col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                            <div class="footer-column">
+                                <div class="footer-widget about-widget">
+                                    <div class="widget-inner">
+                                        <div class="logo"><a href="index.html"><img src="images/footer-logo.png"
+                                                    alt=""></a></div>
+                                        <div class="copyright">&copy; 2019 All Rights Reserved</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Big Column-->
+                        <div class="big-column col-lg-9 col-md-12 col-sm-12 col-xs-12">
+                            <div class="row clearfix">
+                                <!--Footer Column-->
+                                <div class="footer-column col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <div class="footer-widget links-widget">
+                                        <div class="widget-inner">
+                                            <h3>Company</h3>
+                                            <div class="links">
+                                                <ul>
+                                                    <li><a href="#">About us</a></li>
+                                                    <li><a href="#">Careers</a></li>
+                                                    <li><a href="#">Contact us </a></li>
+                                                    <li><a href="#">Customers</a></li>
+                                                    <li><a href="#">Career</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Footer Column-->
+                                <div class="footer-column col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <div class="footer-widget links-widget">
+                                        <div class="widget-inner">
+                                            <h3>Resources</h3>
+                                            <div class="links">
+                                                <ul>
+                                                    <li><a href="#">Library</a></li>
+                                                    <li><a href="#">Support</a></li>
+                                                    <li><a href="#">Blog</a></li>
+                                                    <li><a href="#">Live webinars</a></li>
+                                                    <li><a href="#">API & Developers</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Footer Column-->
+                                <div class="footer-column col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <div class="footer-widget links-widget">
+                                        <div class="widget-inner">
+                                            <h3>Solutions</h3>
+                                            <div class="links">
+                                                <ul>
+                                                    <li><a href="#">Consumer</a></li>
+                                                    <li><a href="#">Financial Services</a></li>
+                                                    <li><a href="#">Media & Entertainment</a></li>
+                                                    <li><a href="#">SaaS</a></li>
+                                                    <li><a href="#">Infrastructure</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Footer Column-->
+                                <div class="footer-column col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <div class="footer-widget follow-widget">
+                                        <div class="widget-inner">
+                                            <h3>Follow</h3>
+                                            <div class="social-links">
+                                                <ul class="clearfix">
+                                                    <li><a href="#"><span class="fa fa-facebook-f"></span></a></li>
+                                                    <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                                                    <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+                                                    <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                                                    <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <!--End Footer Style One-->
+
+    </div>
+    <!--End pagewrapper-->
+
+    <!--Scroll to top-->
+    <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-double-up"></span></div>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/appear.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/pagenav.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/owl.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/validate.js"></script>
+    <script src="js/script.js"></script>
+    <!--Google Map APi Key-->
+    <script src="http://maps.google.com/maps/api/js?key=AIzaSyBKS14AnP3HCIVlUpPKtGp7CbYuMtcXE2o"></script>
+    <script src="js/map-script.js"></script>
+    <!--End Google Map APi-->
+
+</body>
+
+</html>
