@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Grails</title>
+    <title>Spring Boot</title>
     <!-- Stylesheets -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -131,16 +131,19 @@
             <span class="left-curve"></span>
             <span class="right-curve"></span>
             <div class="auto-container">
-                <h1>Grails</h1>
+                <h1>Spring Boot</h1>
                 <br />
-                <h3>Grails is an open source web application framework that uses the Apache Groovy programming language.
-                    It is intended to be a high-productivity framework by following the "coding by convention" paradigm,
-                    providing a stand-alone development environment and hiding much of the configuration detail from the
-                    developer.</h3>
+                <h3>Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you
+                    can "just run".
+
+                    Spring Boot takes an opinionated view of the Spring platform and third-party libraries so you can
+                    get
+                    started
+                    with minimum fuss. Most Spring Boot applications need very little Spring configuration.</h3>
 
             </div>
             <div class="image">
-                <img src="images/resource/grails.jpg" alt="Grails" />
+                <img src="images/resource/springboot.jpg" alt="Spring Boot" />
             </div>
         </section>
         <!--End Page Title-->
@@ -154,18 +157,16 @@
                     <div class="links-column col-md-4 col-sm-12 col-xs-12">
                         <div class="inner-column">
                             <ul class="service-list">
-                                <li><a href="javascript:void(0)">FLAT LEARNING CURVE</a></li>
-                                <li><a href="javascript:void(0)">ON TOP OF SPRING BOOT</a></li>
-                                <li><a href="javascript:void(0)">SMOOTH JAVA INTEGRATION</a></li>
-                                <li><a href="javascript:void(0)">GROOVY-BASED</a></li>
-                                <li><a href="javascript:void(0)">SEAMLESS GORM INTEGRATION</a></li>
-                                <li><a href="javascript:void(0)">REST APIS, REACT, ANGULAR</a></li>
-                                <li><a href="javascript:void(0)">PLUGINS</a></li>
-                                <li><a href="javascript:void(0)">VIEW TECHNOLOGIES</a></li>
-                                <li><a href="javascript:void(0)">OPEN SOURCE</a></li>
-                                <li><a href="javascript:void(0)">IDE SUPPORT</a></li>
-                                <li><a href="javascript:void(0)">ASYNCHRONOUS CAPABILITIES</a></li>
-                                <li><a href="javascript:void(0)">DOMAIN-SPECIFIC LANGUAGES</a></li>
+                                <li><a href="javascript:void(0)">Web Development</a></li>
+                                <li><a href="javascript:void(0)">Java/Groovy/Kotlin Support</a></li>
+                                <li><a href="javascript:void(0)">Application Events and Listeners</a></li>
+                                <li><a href="javascript:void(0)">Admin Support</a></li>
+                                <li><a href="javascript:void(0)">Externalized Configuration</a></li>
+                                <li><a href="javascript:void(0)">Properties Files</a></li>
+                                <li><a href="javascript:void(0)">YAML Support</a></li>
+                                <li><a href="javascript:void(0)">Logging/Security</a></li>
+
+
                             </ul>
                         </div>
                     </div>
@@ -173,64 +174,83 @@
                     <!--Content Column-->
                     <div class="content-column col-md-8 col-sm-12 col-xs-12">
                         <div class="inner-column">
-                            <h2>Flat Learning Curve</h2>
+                            <h2>Features</h2>
                             <div class="text">
-                                <p>Convention-over-configuration, sensible defaults, opinionated APIs, and the Groovy
-                                    language combine to make Grails easy to learn for Java developers.</p>
-                                <p>Grails is built on top of Spring Boot and leverages Spring Boot's time-saving
-                                    features, such as Spring-powered dependency injection.</p>
+                                <p>Create stand-alone Spring applications, Embed Tomcat, Jetty or Undertow directly (no
+                                    need to deploy WAR files), Provide opinionated 'starter' dependencies to simplify
+                                    your build configuration.</p>
+                                <p>Automatically configure Spring and 3rd party libraries whenever possible,
+                                    Provide production-ready features such as metrics, health checks and externalized
+                                    configuration,
+                                    Absolutely no code generation and no requirement for XML configuration</p>
                                 <div class="row clearfix">
                                     <div class="column col-md-6 col-sm-6 col-xs-12">
-                                        <h3>Smooth Java Integration</h3>
-                                        <p>Grails seamlessly and transparently integrates and interoperates with Java,
-                                            the JVM, and existing Java EE containers.</p>
+                                        <h3>Web Development</h3>
+                                        <p>It is a well suited Spring module for web application development. You can
+                                            easily create a self-contained HTTP server using embedded Tomcat, Jetty or
+                                            Undertow. You can use the spring-boot- starter-web module to start and
+                                            run application quickly.</p>
                                     </div>
                                     <div class="column col-md-6 col-sm-6 col-xs-12">
-                                        <h3>Groovy Based</h3>
-                                        <p>Apache Groovy is a language for the Java platform designed to enhance
-                                            developers' productivity. It is an optionally-typed and dynamic language but
-                                            with static-typing and static compilation capabilities.</p>
+                                        <h3>Java/Groovy/Kotlin Support</h3>
+                                        <p>Spring boot supports development in three highly used languages viz Java,
+                                            Apache
+                                            Groovy and
+                                            Kotlin.
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="row clearfix">
                                     <div class="column col-md-6 col-sm-6 col-xs-12">
-                                        <h3>Plugins</h3>
-                                        <p>Developers can build plugins that extend and enhance Grails, or they can
-                                            access existing plugins published by a vibrant plugin community.</p>
+                                        <h3>Application Events and Listeners</h3>
+                                        <p>Spring Boot uses events to handle variety of tasks. It allows us to create
+                                            factories file that are used to add listeners. we can refer it by using
+                                            ApplicationListener key.</p>
 
                                     </div>
                                     <div class="column col-md-6 col-sm-6 col-xs-12">
-                                        <h3>View Technologies</h3>
-                                        <p>Technologies such as GSP, JSON Views, and Markup Views help developers
-                                            effortlessly generate HTML, JSON and XML.</p>
+                                        <h3>Admin Support</h3>
+                                        <p>Spring Boot provides the facility to enable admin related features for the
+                                            application. It is used to access and manage application remotely. </p>
                                     </div>
                                 </div>
 
                                 <div class="row clearfix">
                                     <div class="column col-md-6 col-sm-6 col-xs-12">
-                                        <h3>Seamless GORM Integration</h3>
-                                        <p>Grails seamlessly integrates with GORM, a data access toolkit that provides a
-                                            rich set of APIs for accessing relational and non-relational data. GORM also
-                                            includes implementations for Hibernate (SQL), MongoDB, Cassandra, and Neo4j.
+                                        <h3>Externalized Configuration</h3>
+                                        <p>Spring Boot allows us to externalize our configuration so that we can work
+                                            with the same application in different environments. Application use YAML
+                                            files to externalize configuration.
                                         </p>
 
                                     </div>
                                     <div class="column col-md-6 col-sm-6 col-xs-12">
-                                        <h3>Open Source</h3>
-                                        <p>Grails is an Open Source Apache 2 License project.</p>
+                                        <h3>Properties Files</h3>
+                                        <p>Spring Boot provides rich set of Application Properties. So, you can use that
+                                            in properties file of your project. Properties file is used to set
+                                            propertiesrelated to the application.
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="row clearfix">
                                     <div class="column col-md-6 col-sm-6 col-xs-12">
-                                        <h3>REST Api's, REACT, ANGULAR</h3>
-                                        <p>With the use of application profiles, including React and Angular, Grails
-                                            allows developers to build REST APIs or modern web applications with a
-                                            JavaScript frontend.</p>
+                                        <h3>YAML Support</h3>
+                                        <p>Spring Boot provides convenient way for specifying hierarchical
+                                            configuration.
+                                            YAML
+                                            is
+                                            a
+                                            superset of JSON. The SpringApplication class automatically support YAML.
+                                            YAML
+                                            is successful alternative of properties.</p>
                                     </div>
                                     <div class="column col-md-6 col-sm-6 col-xs-12">
-                                        <h3>IDE Support</h3>
-                                        <p>Developers can access support at any time via IDEs and text editors, such as
-                                            Intellij IDEA, Eclipse, Sublime, and Textmate.</p>
+                                        <h3>Logging/Security</h3>
+                                        <p>Spring Boot uses Common logging for all internal logging. Logging
+                                            dependencies are managed by default. Spring Boot applications are spring
+                                            bases web applications. So, it is secure by default with basic
+                                            authentication on all HTTP endpoints. A rich set of Endpoints are available
+                                            for develop a secure Spring Boot application.</p>
                                     </div>
                                 </div>
                             </div>
