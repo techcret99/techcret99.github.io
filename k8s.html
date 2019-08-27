@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Docker</title>
+    <title>Kubernetes</title>
     <!-- Stylesheets -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -130,19 +130,17 @@
             <span class="left-curve"></span>
             <span class="right-curve"></span>
             <div class="auto-container">
-                <h1>Docker</h1>
+                <h1>Kubernetes</h1>
                 <br />
-                <h3>Leading companies rely on Docker's container platform to build, manage and secure all their
-                    applications
-                    from traditional applications to cutting-edge microservices — and deploy them anywhere. </h3>
-
+                <h3>Kubernetes (K8s) is an open-source system for automating deployment, scaling, and management of
+                    containerized applications.</h3>
             </div>
             <br />
             <br />
             <br />
             <br />
             <div class="image">
-                <img src="images/resource/dockerwhalehero.jpg" height="200" class="center-block" alt="Mongo" />
+                <img src="images/resource/Kubernetes_Logo.png" height="200" class="center-block" alt="Mongo" />
             </div>
         </section>
         <!--End Page Title-->
@@ -156,11 +154,15 @@
                     <div class="links-column col-md-4 col-sm-12 col-xs-12">
                         <div class="inner-column">
                             <ul class="service-list">
-                                <li><a href="javascript:void(0)">Modernize Traditional Applications (MTA)</a></li>
-                                <li><a href="javascript:void(0)">Microservices</a></li>
-                                <li><a href="javascript:void(0)">Continuous Integration, Continuous Delivery &
-                                        Deployment</a></li>
-                                <li><a href="javascript:void(0)">Cloud Migration</a></li>
+                                <li><a href="javascript:void(0)">Service discovery and load balancing
+                                    </a></li>
+                                <li><a href="javascript:void(0)">Automatic bin packing</a></li>
+                                <li><a href="javascript:void(0)">Storage orchestration</a></li>
+                                <li><a href="javascript:void(0)">Self-healing</a></li>
+                                <li><a href="javascript:void(0)">Automated rollouts and rollbacks</a></li>
+                                <li><a href="javascript:void(0)">Secret and configuration management</a></li>
+                                <li><a href="javascript:void(0)">Batch execution</a></li>
+                                <li><a href="javascript:void(0)">Horizontal scaling</a></li>
                             </ul>
                         </div>
                     </div>
@@ -170,57 +172,81 @@
                         <div class="inner-column">
                             <h2>Features</h2>
                             <div class="text">
-                                <p>Seamlessly build and share any application — from legacy to what comes next — and
-                                    securely run them anywhere.
+                                <p>Designed on the same principles that allows Google to run billions of containers a
+                                    week, Kubernetes can scale without increasing your ops team.
+                                </p>
+                                <p>Whether testing locally or running a global enterprise, Kubernetes flexibility grows
+                                    with you to deliver your applications consistently and easily no matter how complex
+                                    your need is.
+                                </p>
+                                <p>Kubernetes is open source giving you the freedom to take advantage of on-premises,
+                                    hybrid, or public cloud infrastructure, letting you effortlessly move workloads to
+                                    where it matters to you.
                                 </p>
 
                                 <div class="row clearfix">
                                     <div class="column col-md-6 col-sm-6 col-xs-12">
-                                        <h3>Modernize Traditional Applications (MTA)</h3>
-                                        <p>Accelerate Modernization by Containerizing Legacy Applications
-                                            The majority of containerized applications are legacy apps that are easily
-                                            transformed into portable, more secure applications. Learn how Docker can
-                                            help you containerize your applications without touching code.</p>
+                                        <h3>Service discovery and load balancing</h3>
+                                        <p>No need to modify your application to use an unfamiliar service discovery
+                                            mechanism. Kubernetes gives Pods their own IP addresses and a single DNS
+                                            name for a set of Pods, and can load-balance across them.</p>
                                     </div>
                                     <div class="column col-md-6 col-sm-6 col-xs-12">
-                                        <h3>Microservices</h3>
-                                        <p>Containers Make Microservices Possible
-                                            Microservices are modular. Each individual service runs on its own, separate
-                                            from the others within the architecture. Containerization provides
-                                            individual microservices with their own isolated workload environments,
-                                            making them independently deployable and scalable. Microservices written in
-                                            any language can be reliably and quickly deployed in containers on any
-                                            operating system to any infrastructure, including public or private clouds.
+                                        <h3>Automatic bin packing</h3>
+                                        <p>Automatically places containers based on their resource requirements and
+                                            other constraints, while not sacrificing availability. Mix critical and
+                                            best-effort workloads in order to drive up utilization and save even more
+                                            resources.
                                         </p>
                                     </div>
                                 </div>
                                 <div class="row clearfix">
                                     <div class="column col-md-6 col-sm-6 col-xs-12">
-                                        <h3>CI/CD & Deployment</h3>
-                                        <p>Continuous Integration is a practice where development teams frequently
-                                            commit application code changes to a shared repository. These changes
-                                            automatically trigger new builds which are then validated by automated
-                                            testing to ensure that they do not break any functionality.
-                                            Continuous Delivery is an extension of that process. It’s the automation of
-                                            the release process so that new code is deployed to target environments.
-                                            Continuous Deployment is also used to describe Continuous Deployment which
-                                            focuses on
-                                            the
-                                            automation process to release what is now a fully functional build into
-                                            production.
+                                        <h3>Storage orchestration</h3>
+                                        <p>Automatically mount the storage system of your choice, whether from local
+                                            storage, a public cloud provider such as GCP or AWS, or a network storage
+                                            system such as NFS, iSCSI, Gluster, Ceph, Cinder, or Flocker.
                                         </p>
 
                                     </div>
                                     <div class="column col-md-6 col-sm-6 col-xs-12">
-                                        <h3>Cloud Migration</h3>
-                                        <p>Execute Your Cloud Migration Strategy
-                                            Eighty-five percent of enterprises have a hybrid and/or multi-cloud
-                                            strategy, but many are falling behind on their cloud migration objectives.
-                                            Replatforming applications across different vendors and geographic locations
-                                            is more challenging than expected. With Docker Enterprise, standardize your
-                                            applications so they run on any infrastructure the same way. Docker
-                                            Enterprise can help you containerize and deploy both traditional and
-                                            microservices across multiple clouds.
+                                        <h3>Self-healing</h3>
+                                        <p>Restarts containers that fail, replaces and reschedules containers when nodes
+                                            die, kills containers that don’t respond to your user-defined health check,
+                                            and doesn’t advertise them to clients until they are ready to serve.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row clearfix">
+                                    <div class="column col-md-6 col-sm-6 col-xs-12">
+                                        <h3>Automated rollouts and rollbacks</h3>
+                                        <p>Kubernetes progressively rolls out changes to your application or its
+                                            configuration, while monitoring application health to ensure it doesn’t kill
+                                            all your instances at the same time. If something goes wrong, Kubernetes
+                                            will rollback the change for you. Take advantage of a growing ecosystem of
+                                            deployment solutions.
+                                        </p>
+
+                                    </div>
+                                    <div class="column col-md-6 col-sm-6 col-xs-12">
+                                        <h3>Secret and configuration management</h3>
+                                        <p>Deploy and update secrets and application configuration without rebuilding
+                                            your image and without exposing secrets in your stack configuration.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row clearfix">
+                                    <div class="column col-md-6 col-sm-6 col-xs-12">
+                                        <h3>Batch execution</h3>
+                                        <p>In addition to services, Kubernetes can manage your batch and CI workloads,
+                                            replacing containers that fail, if desired.
+                                        </p>
+
+                                    </div>
+                                    <div class="column col-md-6 col-sm-6 col-xs-12">
+                                        <h3>Horizontal scaling</h3>
+                                        <p>Scale your application up and down with a simple command, with a UI, or
+                                            automatically based on CPU usage.
                                         </p>
                                     </div>
                                 </div>
